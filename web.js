@@ -19,7 +19,7 @@ fs.readFileSync('index.html', function (err, data) {
   console.log(data);
 
     var buf=data;
-    return buf.toString();
+    return buf.toString("utf8");
 });
 
 }
